@@ -11,7 +11,7 @@ public class CHUBBEncryption {
   public static void main(String[] args) throws Exception {
     // here are your inputs
     String keyString = "averylongtext!@$@#$#@$#*&(*&}{23432432432dsfsdf";
-    String input = "john doe";
+    String input = "ptester";
 
     // setup AES cipher in CBC mode with PKCS #5 padding
     Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
